@@ -438,14 +438,14 @@ header p {
 
 .liFerramenta:hover{
 	width: 14%;
-	trasition:0.8s;
+	transition:0.8s;
 	color:#000000;
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .liFerramenta:hover{
 	background:#F0F8FF;
-	trasition:0.8s;
+	transition:0.8s;
 	transform:scale(1);
 }
 
@@ -456,7 +456,7 @@ header p {
 
 .aFerramenta:hover{
 	font-size: 20px;
-	trasition:0.8s;
+	transition:0.8s;
 	transform:scale(1);	
 }
 
@@ -1556,7 +1556,7 @@ footer li {
 	}
 
 	.frasePrincipal{
-		font-size: 25px;
+		font-size: 26px;
 	}
 
 }
