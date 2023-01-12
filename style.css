@@ -98,4 +98,356 @@ header p {
 	font-weight: bold;
     color:#191970;
 }
+
+@media screen and (max-width: 420px) {
+    
+    .cabecalhoPricipal .caixaTop {
+	    width: auto;
+		display: flex;
+		flex-direction: column;
+	    align-items: center;
+	    border:none;
+	}
+	#logoTopSite{
+		border-color:teal;
+		border-width:4px;
+		border-style: solid;
+		border-radius:10px;
+
+	}
+	#logoTopSite {
+		width: 105%;
+	}
+	.navCabecalho{
+		width: auto;
+	} 
+	.aNavCabecalho{
+		font-size: 12px;
+	}
+	.liNavCAbecalho{
+		padding: 0 5px;
+	}
+	.logoRight{
+		width: 320px;
+		padding: 0;
+	}
+	.bannerEngReTec{
+		width: auto;
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	#imgHome{
+		width:100%;
+	}
+	.menuEngReTec {
+		width: 100%;
+	}
+	.linhaEngReTec{
+		width: auto;
+		margin:0;
+		padding:12px 10px;
+		text-align: center;
+	}
+	#imagemEquipeHome{
+		display: none;
+	}
+	#titleHome{
+		width: auto;
+		font-size: 35px;
+		margin-top: 2em;
+	}
+	.frasePrincipal{
+		width: auto;
+		height: 650px;
+		text-align: center;
+		margin:0 5px;
+	}
+	.sectionMissao{
+		display: flex;
+    	margin: 50px 0;
+    	flex-direction: column;
+    	align-items: center;
+	}
+	.frasePrincipalDois{
+		width: auto;
+		height: 650px;
+	}
+	.sectionVl {
+    display: flex;
+    margin-top: 2.1em;
+    flex-direction: column;
+    align-items: center;
+	}
+	.titleVl{
+		font-size: 65px;
+		margin-top: 0;
+	}
+	#imgValores{
+		width: 60%;
+	}
+	.textMk{
+		width: 90%;
+		margin:0;
+	}
+	.pilarEng {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    flex-direction: column-reverse;
+	}
+	.imgPilar{
+		width: 100%;
+		padding-bottom: 2em;
+	}
+	#mapaMobile{
+		width: auto;
+	}
+	footer{
+		width: auto;
+	}
+	#endereco{
+		width: auto;
+	}
+	.icones{
+		width: 15%;
+	}
+	#rosaceaFooter{
+		width: 50%;
+	}
+	.titlePadraoCanto{
+		width: 340px;
+		margin:0.2em;
+		padding-right: 0;
+	}
+	.menuServicos{
+		display: flex;
+		flex-direction:column;	
+	}
+	.liServicos{
+		width: 90%;
+		margin: 0;
+		margin-left: 7px;
+	}
+	.titleServicos {
+    	font-size: 19px;
+	}
+	.menuFerramenta{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.liFerramenta{
+		width: 90%;
+	}
+	.voltar{
+		left:22%;
+	}
+	header p{
+		padding: 0;
+	}
+	h6 , h3{
+		font-size:23px;
+	}
+	.iconesfe{
+		width: 20%;
+	}
+	#textPro{
+		width: auto;
+		margin: 0;
+		padding-left: 0;
+		padding-top: 0em;
+		font-size: 22px;
+	}
+	#imagemContato{
+		position: relative;
+		width: 75%;
+		left:15%;
+	}
+	.inputPadrao{
+		width: 75%;
+		margin-left: 1em;
+	}
+	legend, fieldset {
+		padding-left: 2em;
+	}
+	#textarea{
+		margin-top:30px;
+	}
+	#comentario{
+		width: 90%;
+		height: 16%;
+	}
+	.aceite{
+		width: 60%;
+		margin:0;
+		}
+	.marque{
+		margin:0;
+	}
+	#submitAceite{
+		width: 60%;
+	}
+	.submit{
+		width: 70%;
+		margin:2.2em;
+	}
+	#fotoCeo{
+		width: 20%;
+	}
+	.textCeo{
+		width: 350px;
+	}
+	.voltarEng{
+		position:relative;
+		left:31%;
+	}
+	#navValores{
+		display: flex;
+		flex-direction:column;
+	}
+	.navValor{
+		width: auto;
+	}
+	.titlePadraoCanto{
+		width: auto;
+	}
+	.fraseRespo{
+		width: auto;
+		margin: 0;
+		padding:1em;
+	}
+	.textFerramentas{
+		width: auto;
+		margin: 0;
+	}
+	#submitAceite {
+    	margin: 20px 75px 20px;
+	}
+    .menuFerramenta {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
+	.liPilares {
+    width: 73%;
+	}
+	.paragrafoFerramentas{
+		padding: 1em;
+	}
+	.sectionPreco {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
+	.divPreco{
+		width: 95%;
+	}
+	.sectionVantagem{
+		margin: 0;
+
+	}
+	.fundoAzul{
+		width: auto;
+	}
+	.Swot {
+    padding-left: 0; 
+    margin: 0;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	}
+	.textinsideList {
+		padding: 0;
+	}
+	.list {
+		margin-left: 0;
+	}
+	.sectionAssessoria{
+		flex-direction:column;
+
+	}
+	.liServicosAssessoria{
+		width: 80%;
+	}
+	.tableValue {
+		width: 157%;
+		margin-left: 1%;
+	}
+	.funcaoAssessoria{
+		left: -11%;
+		width: 98%;
+		padding: 2em 2em;
+	}
+	.textDesenvolvimento{
+		width: 109%;
+		margin: 2em 0em 0 0em;
+		font-size: 22px;
+	}
+
+	#bannerNaFerramenta {
+    display: none;
+	}
+
+    .sectionTime{
+    	flex-direction: column;
+
+    }
+    .divTime, .divForm{
+    	width:80%;
+    	margin-bottom: 1em;
+    }
+    .formServico{
+    	width: 270px;
+    	height: 20px;
+    }
+    .listTime{
+    	margin-left: 0;
+    }
+    .fieldAtuacao{
+    	padding: 0;
+    	margin: 0 0.5em;
+    }
+    .styleBox{
+    	width:85%;
+    }
+    .sectionValores{
+    	flex-direction:column;
+    }
+    .styleBoxPilares {
+    width: 87%;
+	}
+	.liValor{
+		line-height: 1.5em;
+	}
+	#closeDesenvolvimento{
+		right:-2%;
+	}
+	.consultoria{
+		flex-direction: column-reverse;
+	}
+	.pPesquisaMercado  {
+		width:183%;
+	} 
+	.pConsultoria{
+		width:170%;
+	}
+	.imgSpped{
+		width:136%;
+	}
+	.bannerVenda, .bannerFerramenta{
+		bottom:0;
+		left: 0;
+		
+	}
+	.bannerFerramenta{
+	width:330px;}
+
+	.formLivre{
+		width:100%;
+		margin:0;
+	}
+	
+}
   
