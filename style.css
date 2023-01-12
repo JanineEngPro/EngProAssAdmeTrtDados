@@ -1538,7 +1538,17 @@ footer li {
 
 @media screen and (max-width: 710px){
 	.liNavCAbecalho {
-		padding: 0 12px;
+		padding: 0 7px;
+	}
+	.aNavCabecalho {
+		font-size: 14px;
+	}
+	#logoTopSite {
+		width: 40%;
+		height: 131px;
+	}
+	.frasePrincipalDois {
+		font-size: 22px;
 	}
 }
   
