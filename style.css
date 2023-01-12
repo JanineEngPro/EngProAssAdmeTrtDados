@@ -1536,19 +1536,28 @@ footer li {
 	
 }
 
-@media screen and (max-width: 710px){
+@media screen and (max-width: 768px){
 	.liNavCAbecalho {
-		padding: 0 7px;
+    padding: 0 7px;
 	}
-	.aNavCabecalho {
-		font-size: 14px;
-	}
+
 	#logoTopSite {
-		width: 40%;
-		height: 131px;
+    width: 35%;
+    height: 123px;
 	}
-	.frasePrincipalDois {
-		font-size: 22px;
+
+	header p{
+		font-size: 23px;
+		padding:4px;
 	}
+
+	.frasePrincipalDois{
+		font-size: 23px;
+	}
+
+	.frasePrincipal{
+		font-size: 25px;
+	}
+
 }
   
