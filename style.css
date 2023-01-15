@@ -1543,40 +1543,30 @@ footer li {
 
 	#logoTopSite {
     width: 35%;
-    height: 123px;
+    height: 110px;
 	}
 
 	header p{
-		font-size: 23px;
-		padding:4px;
+		font-size: 20px;
+		padding:0;
 	}
 
 	.frasePrincipalDois{
-		font-size: 23px;
-	}
-
-	.frasePrincipal{
-		font-size: 25px;
-	}
-
-	.aNavCabecalho{
-		font-size: 15px;
-	}
-
-	header p {
-		font-size: 21px;
-	}
-
-	.frasePrincipal{
-		height:334px;
-	}
-
-	.frasePrincipalDois{
+		font-size: 20px;
 		height:462px;
 	}
 
+	.frasePrincipal{
+		font-size: 23px;
+		height:334px;
+	}
+
+	.aNavCabecalho{
+		font-size: 12px;
+	}
+
 	#mapaMobile{
-		width: 80%;
+		width: 70%;
 	}
 
 	.pilarEng{
