@@ -1556,8 +1556,33 @@ footer li {
 	}
 
 	.frasePrincipal{
-		font-size: 26px;
+		font-size: 25px;
+	}
+
+	.aNavCabecalho{
+		font-size: 15px;
+	}
+
+	header p {
+		font-size: 21px;
+	}
+
+	.frasePrincipal{
+		height:334px;
+	}
+
+	.frasePrincipalDois{
+		height:462px;
+	}
+
+	#mapaMobile{
+		width: 80%;
+	}
+
+	.pilarEng{
+		flex-direction: column;
+		flex-direction: column-reverse;
+		align-items: center
 	}
 
 }
-  
