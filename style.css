@@ -1684,5 +1684,9 @@ footer li {
 		bottom:-6px;
 		left:42px;
 	}
+	/*PÁGINA DE VALORES ENG*/
+	.styleBox {
+		width: 27%;
+	}
 
 }
