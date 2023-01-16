@@ -171,3 +171,23 @@ i {
     margin-bottom: 1.5em;
 	}
 }
+
+@media screen and (min-width: 421px) and (max-width: 810px) {
+    body{
+        width:99%;
+        padding: 3% 3.5%;
+    }
+    .listFerramenta{
+        margin-right: 500px;
+    }
+    .paragrafoVolta{
+        width:28%;
+    }
+    .fechar{
+        margin-left: 104.5%;
+        margin-top: 2px;
+    }
+
+
+    
+}
