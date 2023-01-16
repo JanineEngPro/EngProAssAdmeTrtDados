@@ -1676,5 +1676,10 @@ footer li {
 	.sectionTime{
 		flex-direction:column;
 	}
+	/*CONSULTORIA DE VENDAS*/
+	.bannerVenda{
+		bottom:-6px;
+		left:42px;
+	}
 
 }
