@@ -87,8 +87,9 @@
 		flex-direction:row;
 	}
 	.marqueFerramenta{
-		width:32%;
+		width:29%;
         font-size: 13px;
+        height: 80px;
 	}
 	.imgFeGestao {
       width: 18%;
