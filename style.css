@@ -475,13 +475,23 @@ header p {
 
 }
 #bannerNaFerramenta{
-	margin-left: 10%;
+	margin-left:10%;
+	width:50%;
 }
+
 .paragrafoFerramenta{
 	font-size: 20px;
 	text-indent: 2em;
 	padding:0 1em 1em 2em;
 	line-height: 1.2em;
+}
+.vaParaImplementar{
+	font-size: 20px;
+	color:#ffffff;
+	position:relative;
+	bottom: 40px;
+	left:15%;
+	animation: animate 1.5s linear infinite;
 }
 /* ####### ORÇAMENTO ####### ORÇAMENTO ####### ORÇAMENTO ####### ORÇAMENTO ####### ORÇAMENTO ####### */ 
 
@@ -1472,7 +1482,14 @@ footer li {
 	}
 
 	#bannerNaFerramenta {
-    display: none;
+		margin-left: 2%;
+		width: 96%;
+	}
+	.vaParaImplementar{
+		font-size: 13px;
+		bottom: 31px;
+		left:6%;
+		width: 342px;
 	}
 
     .sectionTime{
