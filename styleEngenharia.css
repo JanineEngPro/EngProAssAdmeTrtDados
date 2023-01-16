@@ -357,5 +357,15 @@ p{
         top: 1%;
         text-decoration: none;
     }
+	.padrao1 {
+		width: 98%;
+		margin-left: 0; 
+	}
+	.styleBox {
+		width: 29%;
+	}
+		
+	
+	
 }
 
