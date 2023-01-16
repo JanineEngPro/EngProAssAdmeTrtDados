@@ -1215,6 +1215,10 @@ footer li {
 	}
 	.navCabecalho{
 		width: auto;
+	}
+	.labelOrcamento{
+		padding-left: 0;
+		width: 96%;
 	} 
 	.aNavCabecalho{
 		font-size: 12px;
