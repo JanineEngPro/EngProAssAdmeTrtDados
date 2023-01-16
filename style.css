@@ -1664,6 +1664,10 @@ footer li {
 		width:28%;
 	}
 
+	#bannerNaFerrmenta{
+		width:56%
+	}
+
 	/*TIME*/
 	.divTime, .divForm{
 		width: 86%;
