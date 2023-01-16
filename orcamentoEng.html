@@ -1,0 +1,259 @@
+<!DOCTYPE html>  
+<HTML>
+	<HEAD> <!--Cabeçalho informações para o navegador-->
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width">
+	    <title> Eng_Pro_|</title>
+	    <link rel="stylesheet" href="reset.css">
+	    <link rel="stylesheet" href="style.css" alt= " logo eng Pro">
+	    <link href="https://fonts.googleapis.com/css2?family=Eczar&display=swap" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap" rel="stylesheet">
+	</HEAD>
+
+	<BODY>
+		<HEADER class="cabecalhoPricipal">
+			<Section class="caixaTop">
+				<IMG id="logoTopSite"
+					 Src= "Img\logoEngProCabeçalhoAtualizado.png">
+				<Div class="logoRight">
+					<Nav>
+						<UL class = "navCabecalho">
+							<li class="liNavCAbecalho"><a class="aNavCabecalho"href=homeEng.html>       Home      </a></li>
+							<li class="liNavCAbecalho"><a class="aNavCabecalho"href=servicosEng.html>   Serviços   </a></li>
+							<li class="liNavCAbecalho"><a class="aNavCabecalho"href=ferramentasEng.html>Ferramentas</a></li>
+							<li class="liNavCAbecalho"><a class="aNavCabecalho"href=orcamentoEng.html>  Orçamento  </a></li>
+							<li class="liNavCAbecalho"><a class="aNavCabecalho"href=timeEng.html>       Time       </a></li>
+						</UL>
+					</Nav>
+					<P> Somar com seu sonho e contar sua história é a nossa motivação! </P>	
+				</Div>
+			</Section>	
+		</HEADER>
+		<MAIN>
+			<H3 class="titlePadraoCanto"> Preencha os dados abaixo para receber nosso contato!</H3>
+			<Img id = "imagemContato"
+			     src = "Img\imagemContato.png">
+
+			<FORM class="formOrcamento"action="https://formspree.io/f/mknawgvg" method="post">
+ 
+				<Fieldset class="field">
+					<Label class="labelOrcamento"for= "EMPRESA"> Digite o nome da sua empresa: </Label>
+					<Input type="text" id="EMPRESA" class = "inputPadrao" required name="razaoSocial"> 
+
+					<Label class="labelOrcamento"for= "NOME_COMPLETO"> Digite o nome do responsável da empresa:</Label>
+					<Input type="text" id="NOME_COMPLETO" class = "inputPadrao" required name="nome">
+
+					<Label class="labelOrcamento"for= "MARCA"> Digite o nome da sua marca: </Label>
+					<Input type="text" id="MARCA" class = "inputPadrao" required name="marca">
+
+					<Label class="labelOrcamento"for= "E-MAIL"> Digite seu melhor e-mail de contato:</Label>
+					<Input type="text" id="E-MAIL" class = "inputPadrao" required name="email">
+
+					<Label class="labelOrcamento"for= "CONTATO"> Digite o seu melhor número de telefone para contato: </Label>
+					<Input type="text" id="CONTATO" class = "inputPadrao" required placeholder = "(XX) XXXXX - XXXX " name="telefone">
+				</Fieldset>
+
+				<!-- forma de contato-->
+				<Fieldset class="field">
+					<Legend class="labelOrcamento"id = "textPro"> Como prefere receber nosso contato? </Legend>
+					<Label class="labelOrcamento"for "FormaContatoEmail" class = "marque" > 
+			     	<Input Type = "radio" Name = "contato" Value = "email" id = "FormaContatoEmail">E-mail.  
+			     	</Label>
+					<Label class="labelOrcamento"for "FormaContatoLigacao" class = "marque"> 
+			     	<Input Type = "radio" Name = "contato" Value = "ligacao" id = "FormaContatoLigacao">Ligação. 
+			     	</Label>
+					<Label class="labelOrcamento"for "FormaContatoZap" class = "marque"> 
+			     	<Input Type = "radio" Name = "contato" Value = "whatsapp" id = "FormaContatoZap">Whatsapp. 
+			     	</Label>
+		     	</Fieldset>
+
+	     		<Fieldset class="field">
+					<Label class="labelOrcamento" for = "UF" id = "textPro"> Selecione a cidade de atuação da Empresa  
+		   			<SELECT  NAME = "UF" Size = "1" id = "">
+			    		<OPTION class = "optar" selected value ="RJ"> Rio de janeiro
+			    		<OPTION class = "optar" selected value ="SC"> Santa Catarina
+			    		<OPTION class = "optar" selected value ="MG"> Minas Gerais
+			    		<OPTION class = "optar" selected value ="SP"> São Paulo
+		    		</SELECT>
+	     			</Label>
+     		    </Fieldset>
+	     		<Fieldset class="field">
+			     	<Legend class="labelOrcamento"id = "textPro"> Qual o segmento de sua empresa? </Legend>
+			     	<Label class="labelOrcamento"for "feminino" class = "marque"> 
+				    <Input Type = "checkbox" Name = "segmento" Value = "Feminino" id = "feminino">Feminino. 
+				    </Label>
+				    <Label class="labelOrcamento"for "masculino" class = "marque"> 
+				    <Input Type = "checkbox" Name = "segmento" Value = "Masculino" id = "masculino">Masculino. 
+				    </Label>
+					<Label class="labelOrcamento"for "infantoJuvenil" class = "marque"> 
+				    <Input Type = "checkbox" Name = "segmento" Value = "Juvenil" id = "infantoJuvenil">Infantojuvenil.
+				    </Label>
+				    <Label class="labelOrcamento"for "modaFitnes" class = "marque"> 
+				    <Input Type = "checkbox" Name = "segmento" Value = "Fitnes" id = "modaFitnes">Moda fitnes. 
+				    </Label>
+				    <Label class="labelOrcamento"for "modaIntima" class = "marque"> 
+				    <Input Type = "checkbox" Name = "segmento" Value = "Intima" id = "modaIntima">Moda íntima. 
+				    </Label>
+				     <Label class="labelOrcamento"for "Outros" class = "marque"> 
+				    <Input Type = "checkbox" Name = "segmento" Value = "Outros" id = "Outros">Outros. 
+				    </Label>
+
+			    </Fieldset>
+
+     		    <!-- DezPros-->
+			    <Fieldset class="field">
+				    <Legend class="labelOrcamento"id = "textPro"> A Eng_Pro_| é comprometida em levar até você os melhores projetos de reengenharia com as melhores ferramentas do mercado, para isso, precisamos saber quais os pontos que você e sua equipe consideram como forte.</Legend>
+				    <Legend class="labelOrcamento" id = "textPro">Marque todos os pontos que considera positivos em sua empresa? </Legend>
+
+					<Label class="labelOrcamento"for "Projeto" class = "marque"> 
+				    <Input Type ="checkbox" Name ="dezProsEng" Value="Projeto" id ="Projeto">Projeto.
+				    </Label>
+
+					<Label class="labelOrcamento"for "Projecao" class = "marque"> 
+				    <Input Type ="checkbox" Name ="dezProsEng" Value="Projecao" id ="Projecao">Projeção.
+				    </Label>
+
+					<Label class="labelOrcamento"for "Processo" class = "marque"> 
+				    <Input Type ="checkbox" Name ="dezProsEng" Value="Processo" id ="Processo">Processo.
+				    </Label>
+
+				    <Label class="labelOrcamento"for "Promover" class = "marque"> 
+				    <Input Type ="checkbox" Name ="dezProsEng" Value="Promover" id ="Promover">Promover.
+				    </Label>
+
+				    <Label class="labelOrcamento"for "Proatividade" class = "marque"> 
+				    <Input Type ="checkbox" Name ="dezProsEng" Value="Proatividade" id ="Proatividade">Proatividade.
+				    </Label>
+
+					<Label class="labelOrcamento"for "Proeficiencia" class = "marque"> 
+				    <Input Type ="checkbox" Name ="dezProsEng" Value="Proeficiencia" id ="Proeficiência">Proeficiência.
+				    </Label>
+
+				    <Label class="labelOrcamento"for "Programacao" class = "marque"> 
+				    <Input Type ="checkbox" Name ="dezProsEng" Value="Programacao" id ="Programacao">Programação.
+				    </Label>
+
+				    <Label class="labelOrcamento"for "Produtividade" class = "marque"> 
+				    <Input Type ="checkbox" Name ="dezProsEng" Value ="Produtividade" id ="Produtividade">Produtividade. 
+				    </Label>
+
+				    <Label class="labelOrcamento"for "Profissionalismo" class = "marque"> 
+				    <Input Type ="checkbox" Name ="dezProsEng" Value="Profissionalismo" id ="Profissionalismo">Profissionalismo.
+				    </Label>
+
+				    <Label class="labelOrcamento"for "Proassertividade" class = "marque"> 
+				    <Input Type="checkbox" Name ="dezProsEng" Value ="Proassertividade" id ="Proassertividade">Proassertividade.
+				    </Label>
+				</Fieldset>	
+
+				<Fieldset class="field">
+					<Legend class="labelOrcamento"id = "textPro"> Marque todos os pontos que considera precisar de reforço em sua empresa? </Legend> 
+					<Label class="labelOrcamento"for "Recriar" class = "marque"> 
+				    <Input Type ="checkbox" Name ="seisResEng" Value="Recriar" id ="Reconstrucao">Recriar.
+				    </Label>
+				 	 <Label class="labelOrcamento"for "Reducao" class = "marque"> 
+				    <Input Type ="checkbox" Name ="seisResEng" Value="Reducao" id ="Reducao">Reduzir.
+				    </Label>
+				    <Label class="labelOrcamento"for "Repaginar" class = "marque"> 
+				    <Input Type ="checkbox" Name ="seisResEng" Value="Repaginar" id ="Reconstrucao">Repaginar.
+				    </Label>
+				    <Label class="labelOrcamento"for "Recomecar" class = "marque"> 
+				    <Input Type ="checkbox" Name ="seisResEng" Value="Recomecar" id ="Reconstrucao">Recomeçar.
+				    </Label>
+				    <Label class="labelOrcamento"for "Restruturar" class = "marque"> 
+				    <Input Type ="checkbox" Name ="seisResEng" Value="Restruturar" id ="Restruturar">Restruturar.
+				    </Label>
+				     <Label class="labelOrcamento"for "Reconstrucao" class = "marque"> 
+				    <Input Type ="checkbox" Name ="seisResEng" Value="Reconstrucao" id ="Reconstrucao">Reconstruir.
+				    </Label>
+				</Fieldset>
+
+				<Fieldset class="field">
+			     	<Legend class="labelOrcamento"id = "textPro"> Quais os serviços que deseja orçamento? </Legend>
+			     	<Label class="labelOrcamento"for "trataDados" class = "marque"> 
+				    <Input Type = "checkbox" Name = "tipoServico" Value ="trataDados" id = "trataDados">Implemantar Data Science e  Business Intelligence.
+				    </Label>
+				     <Label class="labelOrcamento" for "gestao" class = "marque"> 
+				    <Input Type = "checkbox" Name = "tipoServico" Value = "gestao" id = "gestao">Assessoria Administrativa em Santa Catarina.
+				    </Label>
+			     	<Label class="labelOrcamento"for "Assessoria" class = "marque"> 
+				    <Input Type = "checkbox" Name = "tipoServico" Value = "Assessoria" id = "Assessoria">Consultoria Presencial no Setor de Produção.
+				    </Label>
+				    <Label class="labelOrcamento"for "Assessoria" class = "marque"> 
+				    <Input Type = "checkbox" Name = "tipoServico" Value = "Assessoria" id = "Assessoria">Consultoria Presencial no Setor de Vendas.
+				    </Label> 
+				    <Label class="labelOrcamento"for "consultaVendas" class = "marque"> 
+				    <Input Type = "checkbox" Name = "tipoServico" Value = "consultaVendas" id = "consultaVendas">Pesquisa de Mercado em Santa Catarina.
+				    </Label>
+				    <Label class="labelOrcamento"for "consultaBancoDados" class = "marque"> 
+				    <Input Type = "checkbox" Name = "tipoServico" Value = "consultaBancoDados" id = "consultaBancoDados">Implementar Ferramenta de Gestão. 
+ 					</Label>    
+			    </Fieldset>
+
+			    <Label class="labelOrcamento"for = "comentario" id="textarea">  Comentários!</Label>
+			    <textarea cols = "100" rows = "6" id = "comentario" class = "inputPadrao"> </textarea>
+
+			    <input type = "submit" value = "Envie formulário" class = "submit">
+			</FORM>
+		</MAIN>
+
+		<FOOTER>
+			<img id="rosaceaFooter" src='Img\rosaceaPreta.png'>
+				<P id="endereco">
+					 Eng_Pro_| Eireli <br>
+					 Rua 129 B n°35 Sala 902    
+					 Centro - Itapema - SC  
+					 Cel (47) 98829 6974
+					 janineeng.pro@gmail.com       
+				</p>
+			
+			<P class = "copyright" id="copy"> &copy; Copyright Eng_Pro_| - 2022 </p>
+
+			<ul>
+				<li > 
+					<a class="icones"  href = "https://wa.me/message/VINY2RH4XZ7LD1" > 
+					<img class="icones" src = "D:\site eng\siteOficialEng\IMG\icnZap.png">
+				</li>
+				<li > 
+					<a class="icones"  href = "https://wa.me/message/VINY2RH4XZ7LD1" > 
+					<img class="icones" src = "D:\site eng\siteOficialEng\IMG\icnZapp.png">
+				</li>
+
+				<li ><a class="icones"  href = "https://twitter.com/JanineEng_Pro?t=ElaSq_p9672mH253YmR1TA&s=08">
+					<img class="icones" src ="D:\site eng\siteOficialEng\IMG\icnTwiter.png">
+				</li>
+
+				<li ><a class="icones"  href = "https://www.linkedin.com/in/janinelopesengpro">
+					<img class="icones" src ="D:\site eng\siteOficialEng\IMG\icnTelegram.png">
+				</li>
+
+				<li ><a class="icones"  href = "https://github.com/JanineEngPro">
+					<img class="icones" src ="D:\site eng\siteOficialEng\IMG\icnGmail.png">
+				</li>
+
+				<li > <a class="icones"  href = "https://www.instagram.com/invites/contact/?i=1ndodtycknwrb&utm_content=x2asoc">
+					  <img  class="icones" src ="D:\site eng\siteOficialEng\IMG\icnInsta.png">
+				</li>
+
+				<li ><a class="icones"  href = "https://www.linkedin.com/in/janinelopesengpro">
+					<img class="icones" src ="D:\site eng\siteOficialEng\IMG\icnLinkedin.png">
+				</li>
+
+				<li ><a class="icones"  href = "https://www.linkedin.com/in/janinelopesengpro">
+					<img class="icones" src ="D:\site eng\siteOficialEng\IMG\icnGitHub.png">
+				</li>
+
+				<li ><a class="icones"  href = "https://www.linkedin.com/in/janinelopesengpro">
+					<img class="icones" src ="D:\site eng\siteOficialEng\IMG\icnBlogger.png">
+				</li>
+
+				<li ><a class="icones"  href = "https://www.linkedin.com/in/janinelopesengpro">
+					<img class="icones" src ="D:\site eng\siteOficialEng\IMG\icnFace.png">
+				</li>
+				
+			</ul>
+
+		</FOOTER>
+	</BODY>
+</html>
