@@ -1,0 +1,173 @@
+body{
+	width: 75%;
+	padding: 3% 12.5%;
+	font-family: Eczar;
+}
+
+section{
+	display: flex;
+	flex-direction:column;
+	border-width: 1px;
+	border-style: solid;
+	padding: 0 1.8em 1.8em 1.8em;
+	align-items: center;
+}
+
+strong{
+	font-weight: bold;
+}
+
+i {
+	font-style: italic;
+}
+
+
+.fechar{
+	font-size: 1.5em;
+	text-decoration: none;
+	color:#000000;
+	margin-left: 103.5%;
+	margin-top: 0;
+	border-bottom: 1px solid ;
+	border-left: 1px solid;
+	padding: 1px 3px;
+	background-color: #d4e9ed;
+
+}
+
+.fechar:hover{
+	color:#ffffff;
+	background-color: red;
+}
+
+.fechar:active{
+	background-color: blue;
+	
+}
+
+.imgFerramenta{
+	width: 28%;
+	margin-bottom: 1.5em;
+}
+.imgFerramenta1{
+	width: 40%;
+	margin-bottom: 1.5em;
+}
+.titleFerramenta{
+	font-size: 35px;
+	font-family: Assistant;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 1.2em;
+}
+
+.paragrafoFerramenta{
+	font-size: 20px;
+	text-indent: 40px;
+	line-height: 1.3em;
+	margin-bottom: 1.2em;
+	text-align: justify;
+}
+
+.listFerramenta{
+	list-style: disc;
+	list-style-position: inside;
+	text-align: left;
+	width: 100%;
+	margin-right: 800px;
+	text-align: justify;
+	
+}
+
+.paragrafoFerramenta1{
+	font-size: 20px;
+	text-indent: 40px;
+	line-height: 1.3em;
+	margin-bottom: 1.2em;
+	text-align: justify;
+}
+
+.listOl{
+	list-style-type: decimal;
+	list-style-position: inside;
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 2em;
+	padding-top: 2em;
+	margin-bottom: 1em;
+}
+.listFerramenta1{
+	font-size: 20px;
+	list-style: disc;
+	list-style-position: inside;
+	margin-top: 0.8em;
+	margin-bottom: 0.8em;
+	margin-left: 3%;
+	line-height: 1em;
+	text-align: justify;
+	
+}
+
+.dicaEng{
+	font-size: 21px;
+	font-weight: bold;
+	text-indent: 40px;
+	margin-top: 1.2em;
+	margin-bottom: 1em;
+}
+
+.paragrafoVolta{
+	font-size: 18px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	padding: 0.5em;
+	width: 19%;
+	background-color: #d4e9ed;
+}
+
+.voltarFerramenta{
+	text-decoration: none;
+	color:#000000;
+}
+
+.paragrafoVolta:hover{
+	font-size: 19px;
+	width: 20%;
+	background-color: #c2c2c2;
+}
+.filosofia{
+	font-family: montez;
+	font-size: 30px;
+	margin:0.8em 0;
+}
+
+@media screen and (max-width: 420px) {
+	body{
+		width:100%;
+	}
+	section{
+		align-items: center;
+	}
+	.alinhamentoClose {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+	}
+	.imgFerramenta{
+		margin-left: 0;
+	}
+	.paragrafoVolta{
+		width: 55%;
+	}
+	.listFerramenta{
+		margin-right: 0;
+	}
+	.fechar{
+		margin-left: 110%;
+	}
+	.imgFerramenta {
+    width: 75%;
+    margin-bottom: 1.5em;
+	}
+}
