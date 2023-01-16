@@ -1572,6 +1572,9 @@ footer li {
 		font-size: 20px;
 		padding:0;
 	}
+	#endereco{
+		width:57%;
+	}
 
 	#titleHome{
 		font-size: 48px;
