@@ -1580,7 +1580,7 @@ footer li {
 
 	#frasePrincipalMobile{
 		font-size: 18px;
-		height: 236px;
+		height: 350px;
 	}
 
 	.aNavCabecalho{
@@ -1601,11 +1601,7 @@ footer li {
 	#imgHome {
 		width: 58%;
 	}
-	.frasePrincipal{
-		font-size:18px;
-		height: 300px;
-		width:395px;
-	}
+	
 	.saiba{
 		margin-left: 33%;
 	}
