@@ -1592,9 +1592,22 @@ footer li {
 	}
 
 	.pilarEng{
-		flex-direction: column;
 		flex-direction: column-reverse;
 		align-items: center
+	}
+	.linhaEngReTec {
+		font-size: 16px;
+	}
+	#imgHome {
+		width: 58%;
+	}
+	.frasePrincipal{
+		font-size:18px;
+		height: 300px;
+		width:395px;
+	}
+	.saiba{
+		margin-left: 33%;
 	}
 
 }
