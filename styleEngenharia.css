@@ -353,8 +353,8 @@ p{
     }
     #closeDesenvolvimento {
         position: absolute;
-        right: -21%;
-        top: 1%;
+        right: 0%;
+        top: 2%;
         text-decoration: none;
     }
 }
