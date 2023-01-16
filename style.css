@@ -1653,9 +1653,15 @@ footer li {
 	.liFerramenta{
 		width:18%;
 	}
+	.titleferramenta{
+		font-size: 15px;
+	}
+	.aFerramenta{
+		font-size: 18px;
+	}
 	/*ORÇAMENTO*/
 	#imagemContato{
-		width:33%;
+		width:28%;
 	}
 
 	/*TIME*/
