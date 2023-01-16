@@ -204,5 +204,9 @@ strong{
 	#closeValorAss {
     left: 45.7%;
 	}
+    .tableValue{
+        margin-left: 0;
+        width:98%;
+    }
 
 }
