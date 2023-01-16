@@ -1573,14 +1573,30 @@ footer li {
 		padding:0;
 	}
 
+	#titleHome{
+		font-size: 48px;
+	}
+
 	.frasePrincipalDois{
 		font-size: 16px;
-		height:580px;
+		height:530px;
 	}
 
 	#frasePrincipalMobile{
 		font-size: 15px;
 		height: 500px;
+	}
+	#imgValores{
+		width:45%;
+	}
+	.ulLiValores {
+		font-size: 30px;
+	}
+	.textMk{
+		margin:0 1em;
+		text-align:justify;
+		font-size:26px;
+		width:90%;
 	}
 
 	.aNavCabecalho{
