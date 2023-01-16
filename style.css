@@ -1589,8 +1589,11 @@ footer li {
 	#imgValores{
 		width:45%;
 	}
+	.titleVl {
+		font-size: 51px;
+	}
 	.ulLiValores {
-		font-size: 30px;
+		font-size: 25px;
 	}
 	.textMk{
 		margin:0 1em;
@@ -1599,8 +1602,8 @@ footer li {
 		width:90%;
 	}
 	.imgPilar{
-		width: 50%;
-		margin-left: 12%;
+		width: 45%;
+		margin-left: 13%;
 	}
 
 
