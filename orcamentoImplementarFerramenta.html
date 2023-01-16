@@ -1,0 +1,192 @@
+<!DOCTYPE html>  
+<HTML>
+	<HEAD> <!--Cabeçalho informações para o navegador-->
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width">
+	    <title> Eng_Pro_|</title>
+	    <link rel="stylesheet" href="reset.css">
+	    <link rel="stylesheet" href="styleImplementarFerramenta.css" >
+	    <link href="https://fonts.googleapis.com/css2?family=Eczar&display=swap" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap" rel="stylesheet">
+	</HEAD>
+
+	<BODY>
+		<MAIN>
+			<a class="close" href="implementarFerramenta.html">X</a>
+			<FORM action = "https://formspree.io/f/mlekrgwn" method="post" >	
+				<Legend class = "textPro"> 
+					Digite seus dados para receber nosso contato! 
+				</Legend>
+				<Fieldset class="Fieldset1">
+					<Label class="pLabel" for= "EMPRESA"> Digite o nome da sua empresa: 
+						<Input type="text" id="EMPRESA" class = "inputPadrao" required name="razaoSocial"> 
+					</Label>
+
+					<Label class="pLabel"for= "NOME_COMPLETO"> Responsável pela empresa:
+						<Input type="text" id="NOME_COMPLETO" class = "inputPadrao" required name="nome">
+					</Label>
+
+					<Label class="pLabel"for= "E-MAIL"> E-mail:
+						<Input =type="text" id="E-MAIL" class = "inputPadrao" required name="email">
+					</Label>
+
+					<Label class="pLabel"for= "CONTATO"> Telefone: 
+						<Input type="text" id="CONTATO" class = "inputPadrao" required placeholder = "(XX) XXXXX - XXXX " name="telefone">
+					</Label>
+				</Fieldset>
+
+				<Legend class = "textPro"> 
+					Marque as ferramentas de deseja implementar em sua empresa? 
+				</Legend>	
+					<fieldset class="Fieldset2">
+						<Label for "dre" class = "marqueFerramenta"> 
+							<Input Type = "checkbox" Name = "implementarFerramentaGestao" Value = "dre" 
+							id = "dre">
+							<img class="imgFeGestao"src="Img\ImgFerrGestao.png">
+							Ferramenta DRE.
+					    </Label>
+
+					    <Label for "swot" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value = "swot" id ="swot">
+					    	<img class="imgFeGestao"src="Img\ImgFerrGestao.png">
+					    	Matriz SWOT. 
+					    </Label>
+
+					    <Label for "poter" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value = "porter" id = "5ForcasPorter">
+					    	<img class="imgFeGestao"src="Img\ImgFerrGestao.png">
+					    	As 5 forças de Porter. 
+					    </Label>
+
+					    <Label for "matrizBCG" class = "marqueFerramenta"> 
+						    <Input Type = "checkbox" Name = "implementarFerramenta" Value = "matrizBCG" id = "matrizBCG">
+						    <img class="imgFeGestao"src="Img\ImgFerrGestao.png">
+						    Matriz BCG.
+					    </Label>
+
+					    <Label for "diagramaPareto" class = "marqueFerramenta"> 
+					   		<Input Type = "checkbox" Name = "implementarFerramenta" Value = "diagramaPareto" id = "diagramaPareto">
+						    <img class="imgFeGestao"src="Img\ImgFerrGestao.png">
+						    Diagrama de Pareto.
+					    </Label>
+
+					    <Label for "5Porques" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value = "5Porques" id = "5Porques">
+						    <img class="imgFeGestao"src="Img\ImgFerrGestao.png">
+						    Técnica dos 5 Porquês.
+					    </Label>
+
+					    <Label for "5w2h" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value ="5w2h" id = "5w2h">
+						    <img class="imgFeGestao"src="Img\ImgFerrGestao.png">
+						    Método 5W2H.
+					    </Label>
+
+					    <Label for "cicloPdca" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value ="cicloPdca" id = "cicloPdca">
+						    <img class="imgFeGestao"src="Img\ImgFerrGestao.png">
+						    Ciclo PDCA. 
+					    </Label>
+
+					    <Label for "kaizen" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value ="kaizen" id = "kaizen">
+						    <img class="imgFeGestao"src="Img\ImgFerrGestao.png">
+						    Método Kaizen. 
+					    </Label>
+
+					    <Label for "Smart" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value ="Smart" id = "Smart">
+						    <img class="imgFeGestao"src="Img\ImgFerrGestao.png">
+						    Metas SMART.
+					    </Label>
+
+					    <Label for "manualOperacoes" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value ="manualOperacoes" id = "manualOperacoes">
+						    <img class="imgFeGestao"src="Img\ImgFerrGestao.png">
+						    Manual de Operações.
+					    </Label>
+
+					    <Label for "mapaProcessos" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value ="mapaProcessos" id = "mapaProcessos">
+						    <img class="imgFeGestao"src="Img\ImgFerrGestao.png">
+						    Mapeamento de Processos.
+					    </Label>
+					    
+					    <Label for "metodoPDCP" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value ="metodoPDCP" id = "metodoPDCP">
+						    <img class="imgFeGestao"src="Img\ImgFerrGestao.png">
+						    Método PDCP.
+					    </Label>
+
+					    <Label for "pesquisaClima" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value ="pesquisaClima" id = "pesquisaClima">
+						    <img class="imgFeGestao"src="Img\ImgFerrGestao.png">
+						    Pesquisa de Clima.
+					    </Label>
+
+					    <Label for "lean5s" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value ="lean5s" id = "lean5s">
+						    <img class="imgFeGestao"src="Img\ImgFerrPro.png">
+						    Lean Manufacturing 5S. 
+					    </Label>
+
+					    <Label for "kanban" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value ="kanban" id = "kanban">
+						    <img class="imgFeGestao"src="Img\ImgFerrPro.png">
+						    Método Kanban.
+					    </Label>
+
+					    <Label for "heijunka" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value ="heijunka" id = "heijunka">
+						    <img class="imgFeGestao"src="Img\ImgFerrPro.png">
+						    Método Heijunka. 
+					    </Label>
+
+					    <Label for "mrp" class = "marqueFerramenta">
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value ="mrp" id = "mrp">
+						    <img class="imgFeGestao"src="Img\ImgFerrPro.png">
+						    Manufacturing Resource Planning.  
+					    </Label>
+					    
+					    <Label for "Jit" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value ="Jit" id = "Jit">
+						    <img class="imgFeGestao"src="Img\ImgFerrPro.png">
+						    Just In Time.
+					    </Label>
+
+					    <Label for "tpm" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value ="tpm" id = "tpm">
+						    <img class="imgFeGestao"src="Img\ImgFerrPro.png">
+						    Just In Time. 
+					    </Label>
+
+					    <Label for "scrum" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value ="scrum" id = "scrum">
+						    <img class="imgFeGestao"src="Img\ImgDataSi.png">
+						    Método SCRUM.  
+					    </Label>
+
+					    <Label for "dataScience" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value ="dataScience" id = "dataScience">
+						    <img class="imgFeGestao"src="Img\ImgDataSi.png">
+						    Data Science.
+					    </Label>
+
+					    <Label for "BI" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value ="BI" id = "BI">
+						    <img class="imgFeGestao"src="Img\ImgDataSi.png">
+						    Intelligence Business. 
+					    </Label>
+
+					    <Label for "kpi" class = "marqueFerramenta"> 
+					    	<Input Type = "checkbox" Name = "implementarFerramenta" Value ="kpi" id = "kpi">
+						    <img class="imgFeGestao"src="Img\ImgDataSi.png">
+						    KPI's Indicadores. 
+					    </Label> 
+					</fieldset>
+					<input type = "submit" value = "Envie" class = "submit">
+			</FORM>
+		</MAIN>
+	</BODY>
+</HTML>
