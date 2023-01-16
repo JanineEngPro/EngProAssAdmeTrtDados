@@ -1637,11 +1637,34 @@ footer li {
 	.liServicos {
 		width: 90%;
 		margin: 0;
-		margin-left: 7px;
+		margin-left: 23px;
 	}
 	.menuServicos {
 		display: flex;
 		flex-direction: column;
+	}
+
+	/*FERRAMENTAS*/
+	.vaParaImplementar{
+		width:350px;
+		font-size: 11px;
+		bottom:30px;
+	}
+	.liFerramenta{
+		width:18%;
+	}
+	/*ORÇAMENTO*/
+	#imagemContato{
+		width:33%;
+	}
+
+	/*TIME*/
+	.divTime, .divForm{
+		width: 86%;
+		margin-bottom:10px;
+	}
+	.sectionTime{
+		flex-direction:column;
 	}
 
 }
