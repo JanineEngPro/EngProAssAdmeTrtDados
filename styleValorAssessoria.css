@@ -1,0 +1,208 @@
+h1{
+	font-family: Montez;
+	font-weight: bold;
+	font-size: 30px;
+	padding-bottom: 1em;
+}
+.listDentro{
+	margin-left: 6em;
+	list-style-type: circle;
+}
+table{
+	border: #000000 solid 2px;
+	margin-bottom: 10px;
+}
+strong{
+	font-weight: bold;
+}
+.pTable{
+	width: 92%;
+	padding-bottom: 1em;
+	text-indent: 2em;
+	font-size: 1.2em;
+	text-align: justify;
+	line-height: 1.1em;
+}
+.tableValue{
+	margin-left: 9%;
+	margin-top: 3%;
+	width: 80%;
+	border:solid;
+	border-style: 1px;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+.titleTable, .footTable{
+	background: #177653;
+	color:#ffffff;
+	text-align: center;
+	height:27px;
+	font-size: 23px;
+	vertical-align: bottom;
+}
+
+.tdServico{
+	padding-left: 1em;
+	padding-bottom: 8px;
+	width:150px;
+	border: #000000 solid 1px;	
+	height: 25px;
+	vertical-align: middle;
+	font-size: 18px;
+
+}
+.tdValor{
+	width:150px;
+	border: #000000 solid 1px;
+	text-align: center;
+	height: 25px;
+	vertical-align: middle;
+	font-size: 18px;
+}
+.tdPercent{
+	background: #D9F9A5;
+}
+
+.subTitle{
+	height: 15px;
+	background: #84E4A8;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+.liValorEng{
+	color:#ffffff;
+	font-size: 1.2em;
+	padding: 1em;
+	margin-bottom: 1em;
+	border-radius: 1em;
+	background: #286181;
+	line-height: 0.5em;
+	animation: animate 0.5s linear infinite;
+}
+#closeValorAss{
+	position: relative;
+	left:48.7%;
+	background-color: teal;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	color:#ffffff;
+	padding: 0.5em;
+
+}
+#Fieldset1{
+	display: flex;
+	flex-direction:column;
+	align-items: flex-end;
+	margin-right: 25%;
+
+}
+.Fieldset2{
+	width: 90%;
+	margin-left: 5%;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.pLabel{
+	display:flex;
+	font-size: 20px;
+	text-align: justify;
+}
+.textPro{
+	font-size: 35px;
+	font-family: Montez;
+	padding: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.submit{
+	position: relative;
+	left:5%;
+	width: 20%;
+	font-size: 20px;
+	height: 50px;
+	margin: 25px;
+	border-radius:5px;
+	background-color: #0080805c;
+}
+.submit:hover{
+	width: 22%;
+	background-color: #00808099
+}
+.marqueFerramenta{
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 0.3em #177653;
+	width: 29%;
+	height: 60px;
+	margin: 10px;
+	font-size: 18px;
+}
+.marqueFerramenta{
+	font-family: Eczar;
+	font-size: 1.5em;
+
+}
+#tresFiliais {
+	width: 4em;
+}
+#umaFilial{
+	width: 4em;
+} 
+#duasFiliais{
+	width: 4em;
+}
+
+.tableMobile{
+	display: none;
+}
+
+@media screen and (max-width:420px){
+	.tableMobile{
+		display:block;
+	}
+	.tablePc{
+		display:none;
+	}
+	.tableMobile{
+		padding: 2px;
+	}
+	.tdServico{
+		font-size: 21px;
+		padding: 14px 2px;
+		text-align: center;
+	}
+	.tdValor{
+		font-size: 21px;
+		padding: 16px 1px;
+	}
+
+	.pLabel {
+    font-size: 24px;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 70%;
+	}
+	.inputPadrao{
+		height:20px;
+		margin-top: 4px;
+		padding: 2px;
+	}
+	.marqueFerramenta{
+		width:99%;
+	}
+	#closeValorAss {
+    left: 45.7%;
+	}
+
+}
