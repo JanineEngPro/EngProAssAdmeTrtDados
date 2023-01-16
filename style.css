@@ -1688,5 +1688,8 @@ footer li {
 	.styleBox {
 		width: 27%;
 	}
-
+	/*PÁGINA PILARES ENG*/
+	.styleBoxPilares {
+		width: 44%;
+	}
 }
