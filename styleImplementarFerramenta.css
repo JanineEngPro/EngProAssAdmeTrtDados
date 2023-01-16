@@ -78,3 +78,22 @@
     margin-right: -6%;
 	}
 }
+
+@media screen and (min-width: 421px) and (max-width: 790px){
+    .textPro{
+		padding:0.5em 0.5em 1em 0.5em;
+	}
+	.Fieldset2{
+		flex-direction:row;
+	}
+	.marqueFerramenta{
+		width:29%;
+        font-size: 15px;
+	}
+	.imgFeGestao {
+    width: 18%;
+	}
+    .Fieldset1 {
+    margin-right: 25%;
+	} 
+}
