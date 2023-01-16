@@ -1632,6 +1632,9 @@ footer li {
 	.saiba{
 		margin-left: 33%;
 	}
+	#saibaValores{
+		margin-left:0;
+	}
 
 	/*PAGINA DE SERVIÇO*/
 	.liServicos {
