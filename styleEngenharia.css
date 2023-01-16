@@ -348,13 +348,13 @@ p{
 
 @media screen and (min-width: 421px) and (max-width: 790px){
     .textDesenvolvimento{
-        width:90%;
+        width:82%;
         margin: 2% 2%;
     }
     #closeDesenvolvimento {
         position: absolute;
-        right: 0%;
-        top: 2%;
+        right: 7%;
+        top: 1%;
         text-decoration: none;
     }
 }
