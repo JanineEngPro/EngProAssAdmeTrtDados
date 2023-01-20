@@ -633,12 +633,13 @@ header p {
 }
 /* ####### RODAPÉ ####### RODAPÉ ####### RODAPÉ ####### RODAPÉ ####### RODAPÉ ####### RODAPÉ ####### */
 
-footer img {width:80%;}
+footer img {width:20%;}
 footer{
 	width: 99.2%;
 	margin: 0 auto;
     background: #61a48a;		
     padding : 0 5px;
+	font-family: Eczar;
 }
 .divEndereço { 
     display: grid;
@@ -651,7 +652,6 @@ footer{
 	align-items: center;
 }
 .logo{
-	width:30%;
 	display: flex;
 	flex-direction:column;
 	align-items: center;
@@ -660,10 +660,12 @@ footer{
 	font-size: 35px;
 	color:#3d3d3d;
 	font-weight: bold;
+	font-family: Eczar;
+	padding-bottom: 1em;
+	
 }
 .divAcompanhe{
 	color:#3d3d3d;
-	width: 30%;
 	display: flex;
 }
 	     
@@ -674,21 +676,26 @@ footer p {
 #copy {
 	color:#3d3d3d;
 	text-align: center;
+	
 }
 
 #endereco {
-	width: 80%;
 	color:#3d3d3d;
 	text-align: center;
+	
+}
+.acompanhe{
+	padding-bottom: 1em;
+	font-size: 20px;
 }
 		    
 .icones {
-	width:8%;
+	width:3%;
 	text-decoration: none;
 }
 
 .icones:hover{
-	width:9%;
+	width:4%;
 }
 
 .copyright {
