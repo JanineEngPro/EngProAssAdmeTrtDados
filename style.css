@@ -635,10 +635,9 @@ header p {
 
 footer img {width:20%;}
 footer{
-	width: 99.2%;
 	margin: 0 auto;
     background: #61a48a;		
-    padding : 0 5px;
+    padding : 0 10px;
 	font-family: Eczar;
 }
 .divEndereço { 
