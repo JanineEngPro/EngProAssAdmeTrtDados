@@ -307,7 +307,16 @@ header p {
 
 .titlePilar{
 	text-align:center;
+	font-size: 26px;
 	}
+
+#saibaPilar{
+	display: block;
+	width:20%;
+	position:relative;
+	left: 50px;
+
+}
 
 
 .saiba{
@@ -1593,8 +1602,8 @@ footer li {
 	}
 
 	#logoTopSite {
-    width: 35%;
-    height: 110px;
+    width: 40%;
+    height: 88px;
 	}
 
 	header p{
@@ -1610,9 +1619,10 @@ footer li {
 	}
 
 	.frasePrincipalDois{
-		font-size: 23px;
+		font-size: 20px;
 		
 	}
+
 
 	#frasePrincipalMobile{
 		font-size: 22px;
@@ -1634,8 +1644,7 @@ footer li {
 		width:90%;
 	}
 	.imgPilar{
-		width: 45%;
-		margin-left: 13%;
+		width: 65%;
 	}
 
 
@@ -1646,10 +1655,24 @@ footer li {
 	#mapaMobile{
 		width: 70%;
 	}
-
 	.pilarEng{
-		flex-direction: column-reverse;
-		align-items: center
+		flex-direction: row;
+    	flex-wrap: wrap;
+		justify-content: space-evenly;
+		margin:5% 0 ;
+	}
+	#saibaPilar{
+		margin-left: 10px;
+	}
+	.titlePilar{
+		font-size: 26px;
+	}
+	
+	.divPilar{
+		width:45%;
+		display:flex;
+		flex-direction: column;
+    	align-items: center;
 	}
 	.linhaEngReTec {
 		font-size: 16px;
@@ -1663,6 +1686,11 @@ footer li {
 	}
 	#saibaValores{
 		margin-left:0;
+	}
+	/*PÁGINA DE HOME*/
+	
+	.voltarEng{
+		left:75%;
 	}
 
 	/*PAGINA DE SERVIÇO*/
