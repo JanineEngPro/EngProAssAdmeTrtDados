@@ -369,7 +369,14 @@ p{
 		width: 28%;
 	}
 	.paragrafoPadrao{
-		Width:98%;
-	}	
+		Width:94%;
+	}
+	.voltarEng{
+		left: 73%;
+		top: 1em;
+	}
+	.bannerPro{
+		justify-content: flex-start;
+	}
 }
 
