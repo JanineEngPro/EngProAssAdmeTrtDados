@@ -350,7 +350,7 @@ header p {
 	display: flex;
 	flex-direction:row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-evenly;C:\Users\janin\.vscode\EngProAssAdmeTrtDados\EngProAssAdmeTrtDados\servicosEng.html
 	gap:10px;
 }
 
@@ -412,12 +412,13 @@ header p {
 /* ####### FERRAMENTA ####### FERRAMENTA ####### FERRAMENTA ####### FERRAMENTA  ####### FERRAMENTA ####### */
 
 .menuFerramenta{
-	padding: 20px 6px;
+	width: 90%;
+	padding: 20px 67px;
 	display: flex;
 	margin-bottom: 1em;
 	flex-direction:row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: flex-start;
 	
 }
 
@@ -428,7 +429,7 @@ header p {
 }
 
 .liFerramenta {
-	width: 12%;
+	width: 13%;
 	margin: 0.15em 0.5em;
 	background: #ffffff;
 	border-radius: 5px;
@@ -476,7 +477,7 @@ header p {
 }
 
 .emDesenvolvimento{
-	width:11.3%;
+	width:12.2%;
 	border-style: double;
 	border-radius: 3px;
 	border-width: 6px;
@@ -495,6 +496,7 @@ header p {
 	line-height: 1.2em;
 }
 .vaParaImplementar{
+	width: 85%;
 	font-size: 20px;
 	color:#ffffff;
 	position:relative;
@@ -1593,7 +1595,12 @@ footer li {
 		width:100%;
 		margin:0;
 	}
-	
+	.menuFerramenta{
+		padding: 0;
+	}
+	.vaParaImplementar{
+		left: 3%;
+	}
 }
 
 @media screen and (min-width: 421px) and (max-width: 810px) {
@@ -1718,6 +1725,9 @@ footer li {
 	/*ORÇAMENTO*/
 	#imagemContato{
 		width:28%;
+	}
+	.menuFerramenta{
+		padding-right: 0;
 	}
 
 	#bannerNaFerrmenta{
