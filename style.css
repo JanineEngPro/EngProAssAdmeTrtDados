@@ -365,7 +365,9 @@ header p {
 /* #### Método ###########*/
 .apurarEng{
 	display: flex;
-	flex-direction: column-reverse;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
 	background-color: #c0c0c0;
 }
 
