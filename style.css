@@ -363,7 +363,7 @@ header p {
 }
 
 /* #### Método ###########*/
-.apurarEng {
+.apurarEng{
 	display: flex;
 	flex-direction: column-reverse;
 	background-color: #c0c0c0;
