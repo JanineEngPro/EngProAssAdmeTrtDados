@@ -362,6 +362,13 @@ header p {
 	text-align: center;
 }
 
+/* #### Método ###########*/
+#metodo{
+	display: flex;
+	flex-direction: column-reverse;
+	background-color: #c0c0c0;
+
+}
 /* ####### SERVIÇOS ####### SERVIÇOS ####### SERVIÇOS ####### SERVIÇOS ####### SERVIÇOS ####### */
 .menuServicos{
 	padding: 20px 5px;
