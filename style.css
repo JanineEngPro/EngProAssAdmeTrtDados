@@ -41,25 +41,28 @@ i {
 }
 /*header*/
 #logoTopSite {
-	width: 45%;
-	height:182px;
-	margin:0 0;
+	width: 10%;
+	margin:8px;
+	margin-right: 100px;
 } 
 .logoRight{
 	display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .cabecalhoPricipal .caixaTop{
 	display: flex;
-	align-items: flex-start;
-    justify-content: space-evenly;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color:#111c34;
+    /*justify-content: space-evenly;
 	padding: 15px 15px;
-	border-color:#177653;
-	border-width:1px;
+	border-color:teal;
+	border-width:4px;
 	border-style: solid;
-	border-radius:10px;
+	border-radius:10px;*/
 }
  
 .navCabecalho{
@@ -67,7 +70,7 @@ i {
 	margin:20px auto;
 	padding: 11px;
 	border-color: #808080;
-	border-width:1px;
+	border-width:3px;
 	border-style: solid;
 	border-radius: 10px;
 }
@@ -79,7 +82,7 @@ i {
 
 .aNavCabecalho {
 	text-transform: uppercase;
-	color:#000000;
+	color:#c2c2c2;
 	font-weight: bold;
 	font-size:18px;
 	text-decoration:none; 
@@ -113,8 +116,13 @@ header p {
 	width:65%;
 }
 
+#fraseSlogan{
+	font-family: 'Eczar', serif;
+	font-size: 130%;
+	color:#c2c2c2;
+}
 .menuEngReTec {
-	width: 45%;
+	width: 80%;
 	font-size: 28px;
 	font-family: 'Montez', cursive;
 	background: teal;
@@ -158,14 +166,15 @@ header p {
 
 .sectionProposito {
 	display: flex;
-	flex-direction: row-reverse;
+	flex-direction: row;
     justify-content: space-evenly;
-    margin: 5em 0;
+    margin: 8em 8em;
     align-items: center;
 }
 
 .imgTime{
-	width:30%;
+	width:70%;
+
 }
 
 #imagemEquipeHome{
@@ -174,10 +183,13 @@ header p {
 
 .titleMss1{
 	font-size: 50px;
-	font-family: 'Montez', cursive;
 	text-align: center;
-	margin-bottom: 0.8em;
+	margin-bottom: 1.5em;
+	margin-top: 0.8em;
 	text-decoration: bold;
+}
+.frasePadrao{
+	padding-bottom: 30px;
 }
 
 /* ### HOME MISSÃO ### */
@@ -196,15 +208,15 @@ header p {
 	line-height: 34px;
 	right:100px;
 	top:18em; 
-	width: 600px;
+	width: 800px;
 	height:315px;
     padding:20px;
     font-size:28px;
-    border-color: #286181;
+    /*border-color: #286181;
 	border-width:4px;
 	border-style: solid;
 	border-radius:20px ;
-	border-bottom-width: 15px;
+	border-bottom-width: 15px;*/
 }
 
 #titleHome {
@@ -215,7 +227,7 @@ header p {
 	margin:2% 7%;
     padding:2%;
     font-size:60px;
-    background-color:#61a48a;
+    background:#111c23;;
     border-radius:10px;
  }
 
@@ -242,42 +254,48 @@ header p {
 	border-bottom-width: 15px;}
 
 #imagemEquipeHomeDois { 
-	width:50%;		
+	width:100%;		
 }
 
 /* ### HOME VALORES  ### */
 
 .sectionVl{
 	display: flex;
+	flex-direction: row-reverse;
 	justify-content: space-evenly;
-    margin-top: 0.1em;
+    margin-top: 0.5em;
+	background-color:#c0c0c0;
+	padding: 5%;
 }
 #imgValores{
-	width:30%;
+	width:40%;
 }
 
-.titleVl {
+#imgPilar{
+	width:35%;
+	padding-right: 10%;
+}
+
+/*.titleVl {
 	font-size: 70px;
 	font-family: 'Montez', cursive;
 	color:teal;
 	font-weight: bold;
-}
+}*/
 
 .menuValores{
 	margin: 1em 2em;
-	font-family: 'Assistant', cursive;
+	
 }
 
 .ulLiValores { 
 	font-size: 35px;
-	color:#286181;
-	font-weight: bold;
 	text-decoration: none;
 }
 
 .menuValores li:before {
 	content:"▶"; 
-	color:#286181;
+
 }
 
 
@@ -291,8 +309,9 @@ header p {
 
 .pilarEng{
 	display: flex;
-	align-items: bottom;
-	margin:100px;
+    align-items: flex-start;
+    margin: 100px;
+    justify-content: center;
 }
 .imgPilar{
 	text-decoration: none;
@@ -412,13 +431,12 @@ header p {
 /* ####### FERRAMENTA ####### FERRAMENTA ####### FERRAMENTA ####### FERRAMENTA  ####### FERRAMENTA ####### */
 
 .menuFerramenta{
-	width: 90%;
-	padding: 20px 67px;
+	padding: 20px 6px;
 	display: flex;
 	margin-bottom: 1em;
 	flex-direction:row;
 	flex-wrap: wrap;
-	justify-content: flex-start;
+	justify-content: space-evenly;
 	
 }
 
@@ -429,7 +447,7 @@ header p {
 }
 
 .liFerramenta {
-	width: 13%;
+	width: 12%;
 	margin: 0.15em 0.5em;
 	background: #ffffff;
 	border-radius: 5px;
@@ -477,7 +495,7 @@ header p {
 }
 
 .emDesenvolvimento{
-	width:12.2%;
+	width:11.3%;
 	border-style: double;
 	border-radius: 3px;
 	border-width: 6px;
@@ -496,7 +514,6 @@ header p {
 	line-height: 1.2em;
 }
 .vaParaImplementar{
-	width: 85%;
 	font-size: 20px;
 	color:#ffffff;
 	position:relative;
@@ -647,7 +664,7 @@ header p {
 footer img {width:20%;}
 footer{
 	margin: 0 auto;
-    background: #61a48a;		
+    background: #111c34;		
     padding : 0 10px;
 	font-family: Eczar;
 }
@@ -1595,12 +1612,7 @@ footer li {
 		width:100%;
 		margin:0;
 	}
-	.menuFerramenta{
-		padding: 0;
-	}
-	.vaParaImplementar{
-		left: 3%;
-	}
+	
 }
 
 @media screen and (min-width: 421px) and (max-width: 810px) {
@@ -1725,9 +1737,6 @@ footer li {
 	/*ORÇAMENTO*/
 	#imagemContato{
 		width:28%;
-	}
-	.menuFerramenta{
-		padding-right: 0;
 	}
 
 	#bannerNaFerrmenta{
