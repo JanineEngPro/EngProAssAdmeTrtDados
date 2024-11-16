@@ -761,6 +761,7 @@ footer li {
 .divalorestexto{
 	display: flex;
 	flex-direction: column;
+	padding-left: 10%;
 }
 
 .sectionValores{
