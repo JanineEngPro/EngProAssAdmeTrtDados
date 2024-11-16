@@ -772,7 +772,6 @@ footer li {
 	background-color: #c0c0c0;
 }
 .sectionValores{
-	width: 95%;
 	display: flex;
     flex-direction: row;
     flex-wrap: wrap;
