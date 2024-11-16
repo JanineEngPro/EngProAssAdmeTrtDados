@@ -757,6 +757,7 @@ footer li {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	padding: 0 10% 0% 10%;
 
 }
 .divalorestexto{
@@ -770,6 +771,7 @@ footer li {
     flex-direction: row-reverse;
     align-items: center;
 	background-color: #c0c0c0;
+	padding: 0 10% 0% 10%;
 }
 .sectionValores{
 	display: flex;
