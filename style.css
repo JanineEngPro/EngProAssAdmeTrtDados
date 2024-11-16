@@ -771,7 +771,7 @@ footer li {
     flex-direction: row-reverse;
     align-items: center;
 	background-color: #dcdfe3;
-	padding: 5% 10% 5% 10%;
+	padding: 5% 10% 10% 10%;
 }
 .sectionValores{
 	display: flex;
