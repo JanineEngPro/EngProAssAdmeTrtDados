@@ -757,6 +757,7 @@ footer li {
 	display: flex;
 	flex-direction: row;
 	padding: 10%;
+	align-items: center;
 
 }
 .divalorestexto{
