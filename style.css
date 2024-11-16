@@ -755,7 +755,10 @@ footer li {
 /* ####### PÁGINA DE  VALORES ######## PÁGINA DE  VALORES ######## PÁGINA DE  VALORES ######## */
 .divValores{
 	display: flex;
-	
+
+}
+.divalorestexto{
+	display: flex;
 }
 .sectionValores{
 	width: 95%;
