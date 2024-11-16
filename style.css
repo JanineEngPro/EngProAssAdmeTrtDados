@@ -755,10 +755,12 @@ footer li {
 /* ####### PÁGINA DE  VALORES ######## PÁGINA DE  VALORES ######## PÁGINA DE  VALORES ######## */
 .divValores{
 	display: flex;
+	flex-direction: row;
 
 }
 .divalorestexto{
 	display: flex;
+	flex-direction: column;
 }
 
 .sectionValores{
