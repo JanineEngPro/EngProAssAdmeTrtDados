@@ -764,6 +764,11 @@ footer li {
 	padding-left: 10%;
 }
 
+.divalorestexto2{
+	display: flex;
+	flex-direction: column;
+	padding-left: 10%;
+}
 .sectionValores{
 	width: 95%;
 	display: flex;
