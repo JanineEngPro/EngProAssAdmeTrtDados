@@ -779,6 +779,14 @@ footer li {
     flex-wrap: wrap;
     justify-content: center;
 }
+.fraseRespo{
+	padding-bottom: 2em;
+    font-size: 120%;
+    margin-right: 12%;
+    text-align: justify;
+    text-indent: 1em;
+
+}
 
 /*.paragrafoValores{
 	font-size: 15px;
