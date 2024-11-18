@@ -84,7 +84,7 @@ i {
 	text-transform: uppercase;
 	color:#c2c2c2;
 	font-weight: bold;
-	font-size:18px;
+	font-size:25px;
 	text-decoration:none; 
 }
 nav a:hover {
@@ -118,7 +118,7 @@ header p {
 
 #fraseSlogan{
 	font-family: 'Eczar', serif;
-	font-size: 130%;
+	font-size: 190%;
 	color:#c2c2c2;
 }
 .menuEngReTec {
