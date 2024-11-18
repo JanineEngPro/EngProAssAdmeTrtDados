@@ -781,10 +781,11 @@ footer li {
 }
 .fraseRespo{
 	padding-bottom: 2em;
-    font-size: 120%;
+    font-size: 150%;
     margin-right: 12%;
     text-align: justify;
     text-indent: 1em;
+	line-height:2%;
 
 }
 .imgValores1{
@@ -792,113 +793,7 @@ footer li {
 	padding:1em;
 }
 
-/*.paragrafoValores{
-	font-size: 15px;
-}
 
-.navValor:hover{
-	font-size: 22px;
-	background: #f2f2f2;
-}
-
-.articleValor{
-	width: 95%;
-	margin-left: 50px;
-}
-.styleBox{
-	width: 16%;
-	margin-left: 30px;
-	margin-bottom: 20px;
-	text-align: center;
-    font-size:16px;
-	line-height: 1.2em;
-	border-width: 1px;
-	border-color: #177653;
-	border-style: solid;
-	border-radius: 10px;
-	box-shadow: 1px 1px 0.5em #808080;
-}
-.styleBox:hover{
-	width: 18%;
-	background: #f2f2f2;
-}
-.titleBox{
-	font-size: 20px;
-    font-weight: bold;
-    font-family: "Eczar" , cursive;
-    padding:1em 0 1em 0;
-}
-.imgValores1{
-	width:40%;
-	padding:1em;
-}
-.hasteg{
-	padding-bottom: 1em;
-	color:#191970;
-}
-
-.textValores {
-	font-size:1.5em;
-    text-align: justify;
-    margin-top: 1em;
-    margin-bottom: 20px;
-    word-spacing: 4px;
-    line-height: 1.4;
-    text-indent: 40px;
-    padding-left: 60px;
-    padding-right: 100px;   
-}
-.fraseRespo{
-	padding-bottom: 2em;
-    font-size: 120%;
-    margin-right: 12%;
-    text-align: justify;
-    text-indent: 1em;
-
-}
-
-.modalDialog{
-	margin-top: 1em;
-	position:fixed;
-	color:teal;
-	width: 90%;
-	display: none;
-	text-indent: 1.5em;
-	margin-bottom: 1em;
-}
-
-.modalDialog:target{
-	display: block;
-	opacity: 1;
-	pointer-events:auto;
-}
-
-.modalDialog{
-	position: relative;
-	margin: 1% auto;
-	padding: 30px;
-	width: 90%;
-	height:60%;
-	border-radius: 5px;
-	background: #F5FFFA;
-}
-.close1{
-	text-decoration: none;
-	font-size: 1em;
-	position:relative;
-	left:95.5%;
-	top:-25px;
-	background-color: teal;
-	padding: 0 0.5em;
-	color: #ffffff;
-	font-weight: bold;
-	border-radius: 10px 0 10px  0 ;
-}
-.close1:hover{
-	font-size: 1.2em;
-	border-radius: 10px 0 10px  0 ;
-	background:#286181;
-}*/
 
 /* ####### PAGINA PILARES ####### PAGINA PILARES ####### PAGINA PILARES  ####### PAGINA PILARES ####### */
 	
