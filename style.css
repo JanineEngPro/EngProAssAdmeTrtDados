@@ -275,7 +275,16 @@ header p {
 }
 .sectionDiagnostico{
 	display: flex;
-	flex-direction: row;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 5%;
+}
+.divDiagnostico{
+	padding: 5%;
+	border-style: hidden;
+	border-width: 1px;
+	border-color: #111c23;
+	border-radius: 2px;
 }
 .textDiagnostivo{
 	font-size: 26;
