@@ -273,13 +273,16 @@ header p {
 	width:15%;
 
 }
+.sectionDiagnostico{
+	display: flex;
+	flex-direction: row;
+}
 .textDiagnostivo{
 	font-size: 26;
 	font-weight: bold;
 	border-color: #3d3d3d;
 	border-style: hidden;
 	border-width: 5px;
-
 }
 
 /* ### HOME VALORES  ### */
