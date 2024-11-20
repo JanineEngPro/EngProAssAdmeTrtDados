@@ -270,8 +270,7 @@ header p {
 	font-family:eczar;
 }
 .imgDiagnostico{
-	width:15%;
-
+	width:100%;
 }
 .sectionDiagnostico{
 	display: flex;
