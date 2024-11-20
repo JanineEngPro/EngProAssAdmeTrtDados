@@ -280,11 +280,12 @@ header p {
     margin: 5%;
 }
 .divDiagnostico{
-	padding: 5%;
-	border-style: hidden;
-	border-width: 1px;
-	border-color: #111c23;
-	border-radius: 2px;
+	margin:5%;
+	padding: 2%;
+    border-style: groove;
+    border-width: 2px;
+    border-color: #111c23;
+    border-radius: 36px;S
 }
 .textDiagnostivo{
 	font-size: 26;
