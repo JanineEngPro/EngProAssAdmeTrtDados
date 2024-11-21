@@ -264,58 +264,56 @@ header p {
 	font-family:eczar;
 }
 .imgDiagnostico{
-	width:80%;
+	width:114%;
 	margin-bottom: 20px;
 }
 .sectionDiagnostico{
 	display: flex;
     flex-direction: row;
     align-items: flex-start;
-	margin: 1% 15%;
+	margin: 1% 10%;
 }
 .divDiagnostico{
 	display: flex;
-	flex-direction: column;
+    flex-direction: column;
     align-items: center;
     margin: 2%;
     padding: 2%;
     border-style: groove;
     border-width: 2px;
     border-color: #111c23;
-    border-radius: 36px
+    border-radius: 4px;
+    width: max-content;
 }
 
 .fraseDiagnostico{
 	padding-bottom: 2em;
+    width: 96%;
     font-size: 170%;
-    text-align: justify;
+	font-family: none;
+    text-align: center;
     text-indent: 1em;
     line-height: 130%;
 }
    
 .textDiagnostico{
-	width: -webkit-fill-available;
 	padding: 10px;
     margin-bottom: 8px;
-	border-color: #3d3d3d;
-    border-style: groove;
-    border-width: 1px;
-    border-radius: 9px;
     font-family: eczar;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: bold;
     text-align: center;
     line-height: 22px;
-    letter-spacing: 2px;
 }
 
 .listPreco{
-	font-size: 140%;
+	font-size: 145%;
     list-style-type: disclosure-closed;
     list-style-position: inside;
-    text-align: justify;
-    padding: 11px;
-    margin-left: 10px;
+    padding: 11px 1px;
+    margin-left: 2px;
+    font-family: none;
+    line-height: 130%;
 }
 .buttonDiagnostico{
 	font-size: 23px;
