@@ -216,11 +216,6 @@ header p {
 	height:315px;
     padding:20px;
     font-size:28px;
-    /*border-color: #286181;
-	border-width:4px;
-	border-style: solid;
-	border-radius:20px ;
-	border-bottom-width: 15px;*/
 }
 
 #titleHome {
@@ -270,7 +265,7 @@ header p {
 	font-family:eczar;
 }
 .imgDiagnostico{
-	width:100%;
+	width:80%;
 }
 .sectionDiagnostico{
 	display: flex;
@@ -291,11 +286,20 @@ header p {
     
 }
 .textDiagnostico{
-	font-size: 26;
-	font-weight: bold;
-	border-color: #3d3d3d;
-	border-style: hidden;
-	border-width: 5px;
+	padding: 5px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-color: #3d3d3d;
+    border-style: groove;
+    border-width: 1px;
+    border-radius: 9px;
+    line-height: 22px;
+    letter-spacing: 1px;
+	background-color: #111c23;
+	color: #ffffff;
+
 }
 
 .listPreco{
