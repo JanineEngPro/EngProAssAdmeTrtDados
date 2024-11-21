@@ -284,6 +284,7 @@ header p {
     border-color: #111c23;
     border-radius: 4px;
     width: max-content;
+	background-color: #c7cccf;
 }
 
 .fraseDiagnostico{
