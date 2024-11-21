@@ -323,7 +323,12 @@ header p {
     border-radius: 10px;
     margin-top: 8px;
 }
-
+.areaPreco{
+	text-decoration: none;
+    background: #111c34;
+    border-radius: 10px;
+    width: 100%;
+}
 /* ### HOME VALORES  ### */
 
 .sectionVl{
