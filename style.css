@@ -263,8 +263,11 @@ header p {
 	margin-bottom:30px;
 	font-family:eczar;
 }
-.titleApresenta {
+.titleApresenta li:before {
 	content:"🢣";
+	
+}
+.titleApresenta{
 	text-align: center;
 }
  
