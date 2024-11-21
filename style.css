@@ -292,29 +292,38 @@ header p {
     text-indent: 1em;
     line-height: 130%;
 }
-
-    
+   
 .textDiagnostico{
-	padding: 5px;
+	width: -webkit-fill-available;
+	padding: 10px;
     margin-bottom: 8px;
-	font-family: eczar;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    border-color: #3d3d3d;
+	border-color: #3d3d3d;
     border-style: groove;
     border-width: 1px;
     border-radius: 9px;
+    font-family: eczar;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
     line-height: 22px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .listPreco{
-	font-size: 25px;
-    list-style-type: disc;
+	font-size: 140%;
+    list-style-type: disclosure-closed;
     list-style-position: inside;
     text-align: justify;
-    padding: 10px;
+    padding: 11px;
+    margin-left: 10px;
+}
+.buttonDiagnostico{
+	font-size: 23px;
+    background-color: #111c34;
+    color: #fff;
+    padding: 10px 13px;
+    border-radius: 10px;
+    margin-top: 8px;
 }
 
 /* ### HOME VALORES  ### */
