@@ -265,6 +265,7 @@ header p {
 }
 .imgDiagnostico{
 	width:80%;
+	margin-bottom: 20px;
 }
 .sectionDiagnostico{
 	display: flex;
@@ -306,16 +307,14 @@ header p {
     border-radius: 9px;
     line-height: 22px;
     letter-spacing: 1px;
-
 }
 
 .listPreco{
-	font-size: 16px;
-	list-style-type: disc;
-	list-style-position: inside;
-	text-align: left;
-	padding: 10px;
-	margin-left: 10px;
+	font-size: 25px;
+    list-style-type: disc;
+    list-style-position: inside;
+    text-align: justify;
+    padding: 10px;
 }
 
 /* ### HOME VALORES  ### */
