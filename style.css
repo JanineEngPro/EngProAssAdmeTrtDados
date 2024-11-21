@@ -86,7 +86,6 @@ i {
 	color:#c2c2c2;
 	font-weight: bold;
 	font-size:22px;
-	letter-spacing:0.2em;
 	text-decoration:none; 
 
 }
@@ -299,6 +298,7 @@ header p {
     letter-spacing: 1px;
 	background-color: #111c23;
 	color: #ffffff;
+	font-family: eczar;
 
 }
 
