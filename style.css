@@ -271,7 +271,7 @@ header p {
 	display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin: 5%;
+	margin: 1% 15%;
 }
 .divDiagnostico{
 	display: flex;
