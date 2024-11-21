@@ -270,7 +270,7 @@ header p {
 .titleApresenta {
 	text-align: center;
     font-size: 38px;
-    padding-top: 15px;
+    padding-top: 28px;
 }
  
 .imgDiagnostico{
@@ -281,7 +281,7 @@ header p {
 	display: flex;
     flex-direction: row;
     align-items: flex-start;
-	margin: 1% 10%;
+	margin: 0% 10%;
 }
 .divDiagnostico{
 	display: flex;
