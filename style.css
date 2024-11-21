@@ -346,9 +346,12 @@ header p {
     border-radius: 10px;
     width: 100%;
 }
-.divAtencao:before {
-	content: \0027B2;
-	color:#111c34;
+.divAtencao {
+	background-color: #111c34;
+	border-radius: 10px;
+}
+.fraseAtencao{
+	color:#c0c0c0;
 }
 /* ### HOME VALORES  ### */
 
