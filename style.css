@@ -263,6 +263,11 @@ header p {
 	margin-bottom:30px;
 	font-family:eczar;
 }
+.titleApresenta {
+	content:"🢣";
+	text-align: center;
+}
+ 
 .imgDiagnostico{
 	width:114%;
 	margin-bottom: 20px;
