@@ -281,9 +281,18 @@ header p {
     border-style: groove;
     border-width: 2px;
     border-color: #111c23;
-    border-radius: 36px;
-    
+    border-radius: 36px
 }
+
+.fraseDiagnostico{
+	padding-bottom: 2em;
+    font-size: 170%;
+    text-align: justify;
+    text-indent: 1em;
+    line-height: 130%;
+}
+
+    
 .textDiagnostico{
 	padding: 5px;
     margin-bottom: 8px;
@@ -297,7 +306,6 @@ header p {
     border-radius: 9px;
     line-height: 22px;
     letter-spacing: 1px;
-	
 
 }
 
