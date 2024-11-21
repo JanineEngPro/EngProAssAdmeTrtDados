@@ -346,6 +346,10 @@ header p {
     border-radius: 10px;
     width: 100%;
 }
+.divAtencao:before {
+	content: \0027B2;
+	color:#111c34;
+}
 /* ### HOME VALORES  ### */
 
 .sectionVl{
