@@ -347,8 +347,12 @@ header p {
     width: 100%;
 }
 .divAtencao {
-	background-color: #111c34;
-	border-radius: 10px;
+	display: flex;
+    background-color: #111c34;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 10% 5% 10%;
 }
 .fraseAtencao{
 	color:#c0c0c0;
