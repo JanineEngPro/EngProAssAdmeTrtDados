@@ -295,6 +295,7 @@ header p {
     border-radius: 4px;
     width: 500px;
 	background-color: #c7cccf;
+	padding-top: 5px;
 }
 
 .fraseDiagnostico{
