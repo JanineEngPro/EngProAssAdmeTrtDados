@@ -353,6 +353,7 @@ header p {
     align-items: center;
     justify-content: center;
     margin: 0% 10% 5% 10%;
+	padding-left: 5%;
 }
 .fraseAtencao{
 	color:#c0c0c0;
