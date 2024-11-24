@@ -51,26 +51,16 @@ i {
     flex-direction: column;
     align-items: flex-end;
 }
-.cabecalhoPricipal{
-	width: 100%;
-	height:20%;
-}
+
 .cabecalhoPricipal .caixaTop{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	background-color:#111c34;
-	position: fixed;
 	top:0;
 	width:100%;
 	height: 10%;
-    /*justify-content: space-evenly;
-	padding: 15px 15px;
-	border-color:teal;
-	border-width:4px;
-	border-style: solid;
-	border-radius:10px;*/
 }
  
 .navCabecalho{
@@ -283,6 +273,9 @@ header p {
 .imgDiagnostico{
 	width:114%;
 	margin-bottom: 20px;
+	position:fixed;
+	top:0px;
+	
 }
 .sectionDiagnostico{
 	display: flex;
