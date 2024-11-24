@@ -273,9 +273,6 @@ header p {
 .imgDiagnostico{
 	width:114%;
 	margin-bottom: 20px;
-	position:fixed;
-	top:0px;
-	
 }
 .sectionDiagnostico{
 	display: flex;
